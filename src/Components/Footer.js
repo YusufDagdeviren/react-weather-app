@@ -2,12 +2,9 @@ import React from 'react'
 import { useWeather } from '../Context/WeatherContext';
 
 function Footer() {
-    const {cities} = useWeather()
 
   return (
-    <div>
-        Footer
-    </div>
+    <div></div>
   )
 }
 
