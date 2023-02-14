@@ -6,7 +6,8 @@
 - State yönetiminde **React Context** kullandım.
 - **Axios** ile Api'dan verileri çektim
 - Havadurumu Api'ını [weatherapi.com](https://www.weatherapi.com/docs/) dan sağladım.
-
+---
+[Uygulamanın online olarak 20 Gün boyunca çalışacak versiyonu](https://react-weather-app.yusufdd.repl.co)
 ## Bazı bağımlılıklar:
 `npm install axios`
 `npm install mdb-react-ui-kit`
@@ -21,7 +22,8 @@ Uygulamayı kullanmak için önce projeyi code kısmından zip halinde indirin. 
 - I used **React Context** in State management.
 - I pulled data from Api with **Axios**
 - I provided Weather Api from [weatherapi.com](https://www.weatherapi.com/docs/).
-
+---
+[Online version of the app that will run for 20 days](https://react-weather-app.yusufdd.repl.co)
 ## Some dependencies:
 `npm install axios`
 `npm install mdb-react-ui-kit`
