@@ -1,6 +1,6 @@
 # React Weather App
 ---
-#Tr
+# Tr
 ![image](/image/screen.png)
 - Css Kütüphanesi Olarak **bootstrap** kullandım.
 - State yönetiminde **React Context** kullandım.
