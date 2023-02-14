@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# React Weather App
+---
+#Tr
+![image](/image/screen.png)
+- Css Kütüphanesi Olarak **bootstrap** kullandım.
+- State yönetiminde **React Context** kullandım.
+- **Axios** ile Api'dan verileri çektim
+- Havadurumu Api'ını [weatherapi.com](https://www.weatherapi.com/docs/) dan sağladım.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Bazı bağımlılıklar:
+`npm install axios`
+`npm install mdb-react-ui-kit`
+`npm install react-bootstrap`
+### Ek not:
+Weatherapi ücretli bir şekilde havadurumu api sunduğundan dolayı ücretsiz versiyon ile 20 günlük api key alınıyor bu yüzden yapmış olduğum uygulama 20 gün sonra deaktif olacaktır.
+### İndirip Kullanmak
+Uygulamayı kullanmak için önce projeyi code kısmından zip halinde indirin. Projeyi klasöre çıkardıktan sonra klasör dizinine girip `npm install ` yazıp bağımlılıkları kurun ardından `npm start` yazıp uygulamayı çalıştırabilirsizin
+# En
+![image](/image/screen.png)
+- I used **bootstrap** as Css Library.
+- I used **React Context** in State management.
+- I pulled data from Api with **Axios**
+- I provided Weather Api from [weatherapi.com](https://www.weatherapi.com/docs/).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Some dependencies:
+`npm install axios`
+`npm install mdb-react-ui-kit`
+`npm install react-bootstrap`
+### Additional note:
+Since Weatherapi offers a paid weather api, a 20-day api key is taken with the free version, so the application I have made will be deactivated after 20 days.
+### Download and Use
+To use the application, first download the project as a zip from the code section. After extracting the project to the folder, enter the folder directory and type `npm install` and install the dependencies, then type `npm start` and run the application.

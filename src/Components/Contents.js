@@ -6,7 +6,7 @@ import Footer from './Footer'
 function Contents() {
   return (
     <>
-    <Container className='text-center'>
+    <Container fluid="sm">
         <Dropdowns/>
         <Daylist/>
         <Footer/>

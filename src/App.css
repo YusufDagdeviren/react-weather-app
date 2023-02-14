@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+.header {
+  background-color: rgba(215, 215, 215, 0.644);
+  border-radius: 5px;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 250px;
+  overflow-x: hidden;
+}
+.footer-color {
+  background-color: rgba(215, 215, 215, 0.644);
+
+}
